@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background: #cccccc;
+}
+
+p {
+    text-align: center;
+}
+em strong {
+    color: #FF0000;
+}
+
+p.fontMaior{
+    font-size: 20px;
+}
