@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-p {
+.paragrafo-centralizado{
     text-align: center;
 }
 #missao {
@@ -34,7 +34,6 @@ em strong {
     background: #ffffff;
     padding: 20px;
 }
-
 
 ul {
     display: inline-block;
