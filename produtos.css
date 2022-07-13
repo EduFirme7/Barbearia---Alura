@@ -5,6 +5,16 @@ header {
     padding: 20px 0;
 }
 
+
+#start {
+    padding: 0px 0px 10px 10px;
+}
+
+.imgBotao {
+    padding-left: 10px;
+    width: 30px;
+}
+
 .caixa {
     position: relative;
     width: 940px;
@@ -20,7 +30,6 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
-
 }
 
 nav a {
@@ -32,4 +41,36 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.produtos li{
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
 }

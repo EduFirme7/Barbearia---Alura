@@ -3,9 +3,14 @@
 #banner {
     width: 100%;
 }
-.principal {
+.divPrincipal {
     background: #cccccc;
     padding: 30px;
+}
+
+.imgButton {
+    padding: 0px 0px 10px 10px;
+    width: 40px;
 }
 
 .titulo-principal {
