@@ -6,7 +6,7 @@ header {
 }
 
 
-#start {
+#firstLine {
     padding: 0px 0px 10px 10px;
 }
 
@@ -23,7 +23,7 @@ header {
 
 nav {
     position: absolute;
-    top: 110px;
+    top: 100px;
     right: 0;
 }
 
@@ -41,6 +41,7 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+    color: #c78c19;
 }
 
 .produtos {
@@ -64,6 +65,14 @@ nav a:hover {
     margin-top: 10px;
 }
 
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 40px;
+}
+
 
 .produtos li{
    display: inline-block;
@@ -73,4 +82,19 @@ nav a:hover {
    margin: 0 1.5%;
    padding: 30px 20px;
    box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 20px;
+   box-shadow: 2px 3px 5px #0000007e;
+}
+
+footer {
+    text-align: center;
+    background: url('imagens/bg.jpg') ;
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: #ffffff;
+    margin: 20px 0px;
+    font-size: 13px;
 }
