@@ -209,13 +209,16 @@ body {
 
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: auto;
 
+        width: auto;
     }
 
-    h1 {
+    h1,h2 {
       text-align: center;
-      
+    }
+    .menu{
+        margin:  auto;
+        padding-left: 10px;
     }
 
     nav {
