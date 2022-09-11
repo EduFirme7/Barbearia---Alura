@@ -214,7 +214,8 @@ body {
     }
 
     .tituloLogo {
-        text-align: center;
+      position: relative;
+      left: 100px;
     }
 
     nav {
