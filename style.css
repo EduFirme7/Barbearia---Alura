@@ -26,7 +26,7 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 21px;
     color: #000000;
 }
 nav a:hover {
@@ -107,8 +107,6 @@ footer {
     margin: 20px 0px;
     font-size: 13px;
 }
-
-
 
 
 /* css página inicial*/
