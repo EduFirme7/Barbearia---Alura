@@ -113,10 +113,23 @@ footer {
 }
 
 
-@media screen and (max-width: 480px) {
-    .caixa {
-        width: auto;
+@media screen and (min-width: 400px) {
+
+    .caixa, main, form, fieldset, label, input{
+        width: 0 auto;
+       
     }
 
+    h1,h2, nav {
+        text-align: center;
+    }
+
+    li{
+        margin: 0 auto;
+        padding-left: 10px;
+    }
    
+    nav {
+        position: static;
+    }
 }
